@@ -6,12 +6,32 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     <style>
         body {
             display: flex;
             flex-direction: column;
+            box-sizing: border-box;
         }
-
+        table{
+            margin-left: 50px;
+        }
+        table tr th{
+            border: 1px solid black;
+            border-collapse: collapse;
+            height: 40px;
+            min-width: 40px;
+        }
+        table tr td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            height: 40px;
+            min-width: 40px;
+        }
+        table tr td a i{
+            color: black;
+            padding-left: 15px;
+        }
         form {
             display: flex;
             flex-direction: column;
